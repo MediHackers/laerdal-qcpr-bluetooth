@@ -382,14 +382,6 @@ For CPR quality assessment based on international BLS guidelines:
 | Compression rate | 100–120 per minute |
 | Full chest recoil | Depth returns to 0 between compressions |
 
-## Reference Implementation
-
-A working Python reference implementation is available in the `LimoAnne` project:
-
-- **Library:** [bleak](https://github.com/hbldh/bleak) (cross-platform BLE)
-- **Language:** Python 3.10+
-- **Key file:** `explorer.py` — contains `cpr_monitor()` function
-
 ### Minimal Python Example
 
 ```python
